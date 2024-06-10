@@ -1,0 +1,10 @@
+body {
+	background-color: rgb(252, 221, 226);
+}
+#app {
+	margin: auto;
+	width: 500px;
+}
+#main {
+	background-color: white;
+}
