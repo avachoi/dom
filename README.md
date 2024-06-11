@@ -8,16 +8,28 @@ Ava's Todo List is a simple yet effective web application for managing your dail
 
 ## Features:
 Add Tasks: Quickly add new tasks to your list with the input field provided.
+
 Delete Tasks: Remove unwanted tasks with the click of a button.
+
 Mark Tasks as Done: Move completed tasks to the "done" section for better organization.
+
 Personalized Welcome: Upon login, users are greeted with a personalized welcome message based on their email address.
+
+
 ## Technologies Used:
 HTML: Structured the layout and content of the web app.
+
 CSS: Styled the elements for a visually appealing interface.
+
 JavaScript: Implemented functionality for adding, deleting, and marking tasks as done.
+
 GitHub Repository: Hosted the project's source code for collaboration and version control.
+
+
 ## How to Use:
 Clone the Repository: Clone this repository to your local machine using git clone.
+
 Open index.html: Open the index.html file in your web browser to launch the app.
+
 Get Organized: Start adding your tasks and enjoy staying productive!
 
