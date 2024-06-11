@@ -4,6 +4,11 @@ const form = document.getElementById("form");
 const todoInput = form.elements["todoInput"];
 const lists = document.getElementById("lists");
 
+lists.style.backgroundColor = "rgb(247, 238, 240)";
+todoInput.style.width = "350px";
+todoInput.style.margin = "20px";
+header.style.textAlign = "center";
+
 function addTodo(e) {
 	e.preventDefault();
 	const newTask = todoInput.value;

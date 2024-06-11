@@ -7,4 +7,9 @@ body {
 }
 #main {
 	background-color: white;
+	height: 800px;
+}
+#lists {
+	height: 700px;
+	margin: 30px;
 }
