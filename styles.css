@@ -8,11 +8,52 @@ body {
 #main {
 	background-color: white;
 	height: 800px;
+	padding: 20px;
+	border-radius: 20px;
 }
 #lists {
 	height: 200;
 	max-height: 300px;
 	overflow-y: auto;
-	border: 1px solid #ccc;
+	border-radius: 10px;
 	margin: 30px;
+	padding: 10px;
+}
+#lists li {
+	display: flex;
+	justify-content: space-between;
+}
+#emailForm {
+	text-align: center;
+}
+#done {
+	text-align: center;
+}
+#done h2 {
+	color: palevioletred;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+button {
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 3px;
+	color: palevioletred;
+}
+input {
+	border-radius: 5px;
+}
+.todoInput {
+	height: 30px;
+	font-size: 20px;
+}
+#welcome {
+	visibility: hidden;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
 }
