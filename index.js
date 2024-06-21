@@ -1,3 +1,5 @@
+import logIn from "./login.js";
+
 const app = document.getElementById("app");
 const header = document.querySelector("h1");
 const main = document.getElementById("main");
@@ -75,17 +77,6 @@ function addTodo(e) {
 }
 
 addTodoButton.addEventListener("click", addTodo);
-
-function logIn(e) {
-	e.preventDefault();
-
-	emailForm.style.visibility = "hidden";
-	let emailAddress = email.value.trim();
-	let index = emailAddress.indexOf("@");
-	let userName = emailAddress.slice(0, index);
-	welcome.innerHTML = `Welcome ${userName}!`;
-	welcome.style.visibility = "visible";
-}
 
 loginButton.addEventListener("click", logIn);
 
